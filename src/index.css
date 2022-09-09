@@ -1,0 +1,19 @@
+@import "../node_modules/normalize.css/normalize.css";
+
+* {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-weight: 800;
+	color: coral;
+}
