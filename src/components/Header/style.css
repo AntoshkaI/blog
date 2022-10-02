@@ -1,4 +1,4 @@
-header{
+header {
     height: 90px;
     display: flex;
     padding: 30px;
@@ -6,9 +6,13 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-@media (min-width: 1260px){
-    header{
-        padding-left:calc(50%-600px);
-        padding-right:calc(50%-600px);
+.header__menu {
+    display: flex;
+    gap: 20px;
+}
+@media (min-width: 1260px) {
+    header {
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
     }
 }
